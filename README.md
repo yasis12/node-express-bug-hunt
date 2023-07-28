@@ -25,8 +25,26 @@ TODO: Add the error here followed by the line of code you fixed.
 Fixed `quote.router.js` line 28: switch `app` to `router`. _This is the solution to the first bug._
 
 ### Bug 1
+source axios is above the clinet.js script
 
-...
+### Bug 2
+changed port from 5007 to 5001
+
+### Bug 3
+changed app.use(express.static('public')); to 
+        app.use(express.static('server/public'));
+### Bug 4
+let quote list = an array and not {}
+### Bug 5
+added module.exports = router; to quote.router.js
+### Bug 6
+client.js changed get quotes pat to /quotes/ and 
+quote router.js to '/'
+### Bug 7
+changes quotesList.push to quoteList.push
+### Bug 8
+
+### Bug 9
 
 ## Extra Practice (Optional)
 
